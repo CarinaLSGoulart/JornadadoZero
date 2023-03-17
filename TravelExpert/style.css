@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body{
+    font-family: 'Cinzel';
+    padding-top: 8rem;
+    background-image: url(./assets/image.svg);
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 86px;
+    color: #151718;
+}
+
+h1 span {
+    color: #DB2777;
+}
+
+
+p {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: rgba(44, 46, 47, 0.9);
+    margin-bottom: 7.2rem;
+}
+
+a{
+    font-family: 'Cinzel';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #151718;
+    padding: 16px 32px;
+}
+
+
+.btn-travel{
+    color: #FFFFFF;
+    text-decoration: none;  
+
+}
+
+button {
+    font-weight: 700;
+    background-color: #DB2777;
+    width: fit-content;
+    height: 3rem;
+    border-radius: 2.5rem;
+    border:none;
+    
+
+}
+
+button:active {
+    transform: translateY(.2rem);
+    box-shadow: 0 .2rem .4rem rgba(0, 0, 0, 0.1);
+}
+

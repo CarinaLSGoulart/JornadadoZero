@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Emilys+Candy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body{
+    padding-top: 8rem;
+    font-family: 'Inter';
+    color: white;
+    background-color:  #000000;
+    background-image: url(./assets/image.svg);
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: cover;
+    height: 100vh;
+
+    text-align: center;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    color: #FFFFFF;
+}
+
+span {
+    color: #FFC700;
+}
+
+h1 {
+    font-family: 'Emilys Candy';
+    font-weight: 400;
+    font-size: 6.4rem;
+    line-height: 8rem;
+    text-align: center;
+    padding: 2rem;
+
+    color: #FFC700;
+}
+
+p {
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 2.4rem;
+    margin-bottom: 7.2rem;
+}
+
+a {
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2.4rem;
+    color: rgba(255, 255, 255, 0.6);    
+    padding: 1.2rem 3.2rem;
+}
+
+.btn-play{
+    color: #000000;
+    text-decoration: none;  
+
+}
+
+button {
+    font-weight: 700;
+    background-color: #FFC700;
+    width: fit-content;
+    height: 5rem;
+    border-radius: 1rem;
+    
+
+}
+
+button:active {
+    transform: translateY(.2rem);
+    box-shadow: 0 .2rem .4rem rgba(0, 0, 0, 0.1);
+}
+
+
+

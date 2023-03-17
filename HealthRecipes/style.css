@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Beth+Ellen&family=Spectral:wght@500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  body{
+    color: #EBF1FB;
+    font-family: 'Spectral';
+    padding-top: 8rem;
+    background-color: #000000;
+    background-image: url(./assets/image.svg);
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+  }
+
+  
+h1 {
+    font-family: 'Beth Ellen';
+    font-weight: 400;
+    font-size: 6.4rem;
+    line-height: 12.0rem;
+    color: #EBF1FB;
+    }
+
+h1 span {
+    color: #5EEAD4;
+}
+
+
+p {
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 2.0rem;
+    line-height: 3.0rem;
+    margin-bottom: 7.2rem;
+}
+
+a{
+    font-family: 'Cinzel';
+    font-weight: 600;
+    font-size: 2.4rem;
+    line-height: 2.4rem;
+    color: #EBF1FB;
+    padding: 1.6rem 3.2rem;
+}
+
+
+.btn-travel{
+    color: #0B0C0E;
+    text-decoration: none;  
+
+}
+
+button {
+    font-weight: 700;
+    background-color: #5EEAD4;;
+    width: fit-content;
+    height: 4rem;
+    border-radius: 2.5rem;
+    border:none;
+    
+
+}
+
+button:active {
+    transform: translateY(.2rem);
+    box-shadow: 0 .2rem .4rem rgba(0, 0, 0, 0.1);
+}
